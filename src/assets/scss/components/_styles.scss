@@ -1,0 +1,23 @@
+.top-bar{
+    color:white;
+    li{
+        text-transform: uppercase;
+    }
+    a{
+        color:white
+    }
+    a:hover{
+        color:black;
+    }
+    a.current{
+        color:black;
+        border-bottom: 3px solid black;
+    }
+}
+
+.showcase{
+    background: url('../img/dulces.jpg');
+    background-size: cover;
+    min-height: 450px;
+    color:white;
+}
